@@ -7,7 +7,7 @@ public class GuessRandomNumber {
 
     public static void main(String[] args) {
 
-        int maxRange = 10 ;
+        int maxRange = 500 ;
         int userGuessNumber = 0;
 
         //create objects
@@ -18,7 +18,7 @@ public class GuessRandomNumber {
 
         //logic to check the guess of the user and number of try
 
-        for(int loop=1; loop<=10; loop++)
+        for(int loop=1; loop<=500; loop++)
         {
             System.out.println("Please enter your Guess : ");
             userGuessNumber = SC.nextInt();
